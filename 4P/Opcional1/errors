@@ -1,0 +1,26 @@
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c: In function ‘copy_items_into_list’:
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:146:16: error: invalid storage class for function ‘modtimer_read’
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:146:1: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:254:12: error: invalid storage class for function ‘modtimer_open’
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:305:12: error: invalid storage class for function ‘modtimer_release’
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:356:16: error: invalid storage class for function ‘modconfig_read’
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:378:16: error: invalid storage class for function ‘modconfig_write’
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:416:2: error: initializer element is not constant
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:416:2: error: (near initialization for ‘proc_entry_fops.release’)
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:417:2: error: initializer element is not constant
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:417:2: error: (near initialization for ‘proc_entry_fops.open’)
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:418:6: error: initializer element is not constant
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:418:6: error: (near initialization for ‘proc_entry_fops.read’)
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:423:6: error: initializer element is not constant
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:423:6: error: (near initialization for ‘proc_entry_conf_fops.read’)
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:424:6: error: initializer element is not constant
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:424:6: error: (near initialization for ‘proc_entry_conf_fops.write’)
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:484:1: error: invalid storage class for function ‘__inittest’
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:484:1: warning: ‘alias’ attribute ignored [-Wattributes]
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:485:1: error: invalid storage class for function ‘__exittest’
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:485:1: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:485:1: warning: ‘alias’ attribute ignored [-Wattributes]
+/home/kernel/Escritorio/Practica4/Opcional1/modtimer.c:485:1: error: expected declaration or statement at end of input
+make[2]: *** [/home/kernel/Escritorio/Practica4/Opcional1/modtimer.o] Error 1
+make[1]: *** [_module_/home/kernel/Escritorio/Practica4/Opcional1] Error 2
+make: *** [all] Error 2
