@@ -8,7 +8,7 @@
 #include <linux/random.h>
 #include <linux/workqueue.h>
 #include <linux/slab.h>
-#include <asm-generic/uaccess.h>
+#include <linux/uaccess.h>
 #include "cbuffer.h"
 
 

@@ -5,7 +5,7 @@
 #include <linux/vmalloc.h>
 #include <linux/kifs.h>
 #include <linux/list.h>
-#include <asm-generic/uaccess.h>
+#include <linux/uaccess.h>
 
 
 

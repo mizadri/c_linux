@@ -4,7 +4,7 @@
 #include <linux/string.h>
 #include <linux/vmalloc.h>
 #include <linux/list.h>
-#include <asm-generic/uaccess.h>
+#include <linux/uaccess.h>
 
 
 

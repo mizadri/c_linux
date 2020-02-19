@@ -5,8 +5,8 @@
 #include <linux/vmalloc.h>
 #include <linux/kifs.h>
 #include <linux/list.h>
-#include <asm-generic/uaccess.h>
-#include <asm-generic/errno.h>
+#include <linux/uaccess.h>
+#include <linux/errno.h>
 
 #define BUFFER_LENGTH       PAGE_SIZE
 #define MAX_SIZE  100

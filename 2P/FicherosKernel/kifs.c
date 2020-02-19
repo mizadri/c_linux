@@ -2,7 +2,7 @@
 #include <asm/string.h>
 #include <linux/module.h> /* For EXPORT_SYMBOL() */
 #include <linux/syscalls.h> /* For SYSCALL_DEFINE4() */
-#include <asm-generic/errno.h>
+#include <linux/errno.h>
 
 #ifndef NULL
 #define NULL 0
