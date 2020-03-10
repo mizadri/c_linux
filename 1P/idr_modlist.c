@@ -26,7 +26,6 @@ struct list_head links;
 //DEFINE_IDR(idr_huh);
 
 //dynamic idr definition
-//with *idr_huh and idr_init(idr_huh) fails
 struct idr idr_huh;
 
 typedef struct {

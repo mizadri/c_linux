@@ -1,1 +1,0 @@
-cmd_/home/kernel/Escritorio/workspace_5/1P/modlist.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.14.1.kifs2/scripts/module-common.lds --build-id  -o /home/kernel/Escritorio/workspace_5/1P/modlist.ko /home/kernel/Escritorio/workspace_5/1P/modlist.o /home/kernel/Escritorio/workspace_5/1P/modlist.mod.o
